@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- Author program Terehin I.V. www.fceditor.nm.ru -->
+<FCEblocks>
+	<Count>
+33
+</Count>
+	<FCEblock>
+		<text>
+example3
+</text>
+		<comment>
+		</comment>
+		<Index>
+0
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+-1
+</Parent>
+		<level>
+0
+</level>
+		<kind>
+7
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+1
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int N
+</text>
+		<comment>
+		</comment>
+		<Index>
+1
+</Index>
+		<Next>
+2
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "Введіть число"
+</text>
+		<comment>
+		</comment>
+		<Index>
+2
+</Index>
+		<Next>
+3
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ввід N
+</text>
+		<comment>
+		</comment>
+		<Index>
+3
+</Index>
+		<Next>
+4
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int k_p=6, k_cd=5
+</text>
+		<comment>
+		</comment>
+		<Index>
+4
+</Index>
+		<Next>
+5
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+k=0; kquoterLEFTk_p; k++
+</text>
+		<comment>
+		</comment>
+		<Index>
+5
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+6
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+n=0; nquoterLEFTk_cd; n++
+</text>
+		<comment>
+		</comment>
+		<Index>
+6
+</Index>
+		<Next>
+8
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+7
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+	rt[k][n] = rand()%(10*1+50)
+</text>
+		<comment>
+		</comment>
+		<Index>
+7
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+6
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід " Таблиця голосів:"
+</text>
+		<comment>
+		</comment>
+		<Index>
+8
+</Index>
+		<Next>
+9
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід  "-------------------------------"
+</text>
+		<comment>
+		</comment>
+		<Index>
+9
+</Index>
+		<Next>
+10
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ "|        N кандидатів           |"
+</text>
+		<comment>
+		</comment>
+		<Index>
+10
+</Index>
+		<Next>
+11
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід  "-------------------------------"
+</text>
+		<comment>
+		</comment>
+		<Index>
+11
+</Index>
+		<Next>
+12
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "|Np | 1  | 2  | 3  | 4  | 5  |"
+</text>
+		<comment>
+		</comment>
+		<Index>
+12
+</Index>
+		<Next>
+13
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід  "-------------------------------"
+</text>
+		<comment>
+		</comment>
+		<Index>
+13
+</Index>
+		<Next>
+14
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int k=0; kquoterLEFTk_p; k++
+</text>
+		<comment>
+		</comment>
+		<Index>
+14
+</Index>
+		<Next>
+18
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+15
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "|" "|"
+</text>
+		<comment>
+		</comment>
+		<Index>
+15
+</Index>
+		<Next>
+16
+</Next>
+		<Parent>
+14
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int n=0; nquoterLEFTk_cd; n++
+</text>
+		<comment>
+		</comment>
+		<Index>
+16
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+14
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+17
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід rt[k][n] "|"
+</text>
+		<comment>
+		</comment>
+		<Index>
+17
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+16
+</Parent>
+		<level>
+4
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід  "-------------------------------"
+</text>
+		<comment>
+		</comment>
+		<Index>
+18
+</Index>
+		<Next>
+19
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int n=0; nquoterLEFTk_cd; n++
+</text>
+		<comment>
+		</comment>
+		<Index>
+19
+</Index>
+		<Next>
+24
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+20
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int s=0
+</text>
+		<comment>
+		</comment>
+		<Index>
+20
+</Index>
+		<Next>
+21
+</Next>
+		<Parent>
+19
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int k=0; kquoterLEFTk_p; k++
+</text>
+		<comment>
+		</comment>
+		<Index>
+21
+</Index>
+		<Next>
+23
+</Next>
+		<Parent>
+19
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+22
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+s = s+ rt[k][n]
+</text>
+		<comment>
+		</comment>
+		<Index>
+22
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+21
+</Parent>
+		<level>
+4
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+REZ[n] = s
+</text>
+		<comment>
+		</comment>
+		<Index>
+23
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+19
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "|" "S |"
+</text>
+		<comment>
+		</comment>
+		<Index>
+24
+</Index>
+		<Next>
+25
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int n=0; nquoterLEFTk_cd; n++
+</text>
+		<comment>
+		</comment>
+		<Index>
+25
+</Index>
+		<Next>
+27
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+26
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід REZ[n] "|"
+</text>
+		<comment>
+		</comment>
+		<Index>
+26
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+25
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+found = false
+</text>
+		<comment>
+		</comment>
+		<Index>
+27
+</Index>
+		<Next>
+28
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int n=0; nquoterLEFTk_cd; n++
+</text>
+		<comment>
+		</comment>
+		<Index>
+28
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+29
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+REZ[n] quoterRIGHT N
+</text>
+		<comment>
+		</comment>
+		<Index>
+29
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+28
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+3
+</kind>
+		<ItemsCount>
+2
+</ItemsCount>
+		<Items0>
+30
+</Items0>
+		<Items1>
+32
+</Items1>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "Кандидат" "має результат більший за"
+</text>
+		<comment>
+		</comment>
+		<Index>
+30
+</Index>
+		<Next>
+31
+</Next>
+		<Parent>
+29
+</Parent>
+		<level>
+4
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+found = true
+</text>
+		<comment>
+		</comment>
+		<Index>
+31
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+29
+</Parent>
+		<level>
+4
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "Немає кандидатів із результатом більшим за"
+</text>
+		<comment>
+		</comment>
+		<Index>
+32
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+29
+</Parent>
+		<level>
+4
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+</FCEblocks>

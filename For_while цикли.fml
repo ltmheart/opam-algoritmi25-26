@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- Author program Terehin I.V. www.fceditor.nm.ru -->
+<FCEblocks>
+	<Count>
+17
+</Count>
+	<FCEblock>
+		<text>
+example2
+</text>
+		<comment>
+		</comment>
+		<Index>
+0
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+-1
+</Parent>
+		<level>
+0
+</level>
+		<kind>
+7
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+1
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Вивести: Введіть початкове значення в дюймах:
+</text>
+		<comment>
+		</comment>
+		<Index>
+1
+</Index>
+		<Next>
+2
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+8
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Ввести: startInch
+</text>
+		<comment>
+		</comment>
+		<Index>
+2
+</Index>
+		<Next>
+3
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Вивести: Введіть крок зміни в дюймах:
+</text>
+		<comment>
+		</comment>
+		<Index>
+3
+</Index>
+		<Next>
+4
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+8
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+step
+</text>
+		<comment>
+		</comment>
+		<Index>
+4
+</Index>
+		<Next>
+14
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+rows quoterLEFT 10 або rows quoterRIGHT 15
+</text>
+		<comment>
+		</comment>
+		<Index>
+5
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+3
+</kind>
+		<ItemsCount>
+2
+</ItemsCount>
+		<Items0>
+6
+</Items0>
+		<Items1>
+16
+</Items1>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Вивести: Дюйми
+</text>
+		<comment>
+		</comment>
+		<Index>
+6
+</Index>
+		<Next>
+7
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+8
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Вивести: Сантиметри
+</text>
+		<comment>
+		</comment>
+		<Index>
+7
+</Index>
+		<Next>
+8
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+8
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Вивести: Лінії
+</text>
+		<comment>
+		</comment>
+		<Index>
+8
+</Index>
+		<Next>
+9
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+8
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int i = 0; i quoterLEFT rows; ++i
+</text>
+		<comment>
+		</comment>
+		<Index>
+9
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+10
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+inches = startInch + i * step
+</text>
+		<comment>
+		</comment>
+		<Index>
+10
+</Index>
+		<Next>
+11
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+cm = inches * 2.54
+</text>
+		<comment>
+		</comment>
+		<Index>
+11
+</Index>
+		<Next>
+12
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+lines = inches * 12
+</text>
+		<comment>
+		</comment>
+		<Index>
+12
+</Index>
+		<Next>
+13
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Вивести: inches, cm , lines 
+</text>
+		<comment>
+		</comment>
+		<Index>
+13
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+8
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Вивести: Введіть кількість рядків у таблиці:
+</text>
+		<comment>
+		</comment>
+		<Index>
+14
+</Index>
+		<Next>
+15
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+8
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+rows
+</text>
+		<comment>
+		</comment>
+		<Index>
+15
+</Index>
+		<Next>
+5
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+Вивести: Помилка вводу: кількість рядків має бути від 10 до 15.
+</text>
+		<comment>
+		</comment>
+		<Index>
+16
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+5
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+8
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+</FCEblocks>

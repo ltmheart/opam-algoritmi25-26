@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- Author program Terehin I.V. www.fceditor.nm.ru -->
+<FCEblocks>
+	<Count>
+31
+</Count>
+	<FCEblock>
+		<text>
+example2
+</text>
+		<comment>
+		</comment>
+		<Index>
+0
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+-1
+</Parent>
+		<level>
+0
+</level>
+		<kind>
+7
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+1
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int size = 4
+</text>
+		<comment>
+		</comment>
+		<Index>
+1
+</Index>
+		<Next>
+2
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+int i = 19
+</text>
+		<comment>
+		</comment>
+		<Index>
+2
+</Index>
+		<Next>
+3
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+k = 0; k quoterLEFT size; ++k
+</text>
+		<comment>
+		</comment>
+		<Index>
+3
+</Index>
+		<Next>
+8
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+4
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+n = 0; n quoterLEFT size;
+</text>
+		<comment>
+		</comment>
+		<Index>
+4
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+3
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+5
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+term1 = (k + 1) * 1.0 / (i + 11) * (n + 1)
+</text>
+		<comment>
+		</comment>
+		<Index>
+5
+</Index>
+		<Next>
+6
+</Next>
+		<Parent>
+4
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+term2 = sin(k + 1) * (n + 1) * 1.0 / (i + 12)
+</text>
+		<comment>
+		</comment>
+		<Index>
+6
+</Index>
+		<Next>
+7
+</Next>
+		<Parent>
+4
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+a[k][n] = term1 + term2
+</text>
+		<comment>
+		</comment>
+		<Index>
+7
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+4
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід Матриця a[k][n]
+</text>
+		<comment>
+		</comment>
+		<Index>
+8
+</Index>
+		<Next>
+9
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+k = 0; k quoterLEFT size; ++k
+</text>
+		<comment>
+		</comment>
+		<Index>
+9
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+0
+</Parent>
+		<level>
+1
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+10
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ n = 0; n quoterLEFT size; ++n
+</text>
+		<comment>
+		</comment>
+		<Index>
+10
+</Index>
+		<Next>
+12
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+11
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід a[k][n]
+</text>
+		<comment>
+		</comment>
+		<Index>
+11
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+10
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+dobutock = 1
+</text>
+		<comment>
+		</comment>
+		<Index>
+12
+</Index>
+		<Next>
+13
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+found = false
+</text>
+		<comment>
+		</comment>
+		<Index>
+13
+</Index>
+		<Next>
+14
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ k = 0; k quoterLEFT size; ++k
+</text>
+		<comment>
+		</comment>
+		<Index>
+14
+</Index>
+		<Next>
+19
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+15
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+n = 0; n quoterLEFT size; ++n
+</text>
+		<comment>
+		</comment>
+		<Index>
+15
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+14
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+16
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+a[k][n] quoterLEFT -5 || a[k][n] quoterRIGHT 3
+</text>
+		<comment>
+		</comment>
+		<Index>
+16
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+15
+</Parent>
+		<level>
+4
+</level>
+		<kind>
+3
+</kind>
+		<ItemsCount>
+2
+</ItemsCount>
+		<Items0>
+17
+</Items0>
+		<Items1>
+-1
+</Items1>
+	</FCEblock>
+	<FCEblock>
+		<text>
+dobutock *= a[k][n]
+</text>
+		<comment>
+		</comment>
+		<Index>
+17
+</Index>
+		<Next>
+18
+</Next>
+		<Parent>
+16
+</Parent>
+		<level>
+5
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ found = true
+</text>
+		<comment>
+		</comment>
+		<Index>
+18
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+16
+</Parent>
+		<level>
+5
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+found
+</text>
+		<comment>
+		</comment>
+		<Index>
+19
+</Index>
+		<Next>
+22
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+3
+</kind>
+		<ItemsCount>
+2
+</ItemsCount>
+		<Items0>
+20
+</Items0>
+		<Items1>
+21
+</Items1>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "Добуток елементів, що задовільняють умову (a[k][n] quoterLEFT -5 або a[k][n] quoterRIGHT 3)"
+</text>
+		<comment>
+		</comment>
+		<Index>
+20
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+19
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "Немає елементів, які задовільняють умову"
+</text>
+		<comment>
+		</comment>
+		<Index>
+21
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+19
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+minElement = a[0][0]
+</text>
+		<comment>
+		</comment>
+		<Index>
+22
+</Index>
+		<Next>
+23
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+minN = n
+</text>
+		<comment>
+		</comment>
+		<Index>
+23
+</Index>
+		<Next>
+24
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ k = 0; k quoterLEFT size; ++k
+</text>
+		<comment>
+		</comment>
+		<Index>
+24
+</Index>
+		<Next>
+30
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+25
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ n = 0; n quoterLEFT size; ++n
+</text>
+		<comment>
+		</comment>
+		<Index>
+25
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+24
+</Parent>
+		<level>
+3
+</level>
+		<kind>
+6
+</kind>
+		<ItemsCount>
+1
+</ItemsCount>
+		<Items0>
+26
+</Items0>
+	</FCEblock>
+	<FCEblock>
+		<text>
+a[k][n] quoterLEFT minElement
+</text>
+		<comment>
+		</comment>
+		<Index>
+26
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+25
+</Parent>
+		<level>
+4
+</level>
+		<kind>
+3
+</kind>
+		<ItemsCount>
+2
+</ItemsCount>
+		<Items0>
+27
+</Items0>
+		<Items1>
+-1
+</Items1>
+	</FCEblock>
+	<FCEblock>
+		<text>
+ minElement = a[k][n]
+</text>
+		<comment>
+		</comment>
+		<Index>
+27
+</Index>
+		<Next>
+28
+</Next>
+		<Parent>
+26
+</Parent>
+		<level>
+5
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+minK = k
+</text>
+		<comment>
+		</comment>
+		<Index>
+28
+</Index>
+		<Next>
+29
+</Next>
+		<Parent>
+26
+</Parent>
+		<level>
+5
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+minN = n
+</text>
+		<comment>
+		</comment>
+		<Index>
+29
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+26
+</Parent>
+		<level>
+5
+</level>
+		<kind>
+0
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+	<FCEblock>
+		<text>
+вивід "Мінімальний елемент має індекси"
+</text>
+		<comment>
+		</comment>
+		<Index>
+30
+</Index>
+		<Next>
+-1
+</Next>
+		<Parent>
+9
+</Parent>
+		<level>
+2
+</level>
+		<kind>
+9
+</kind>
+		<ItemsCount>
+0
+</ItemsCount>
+	</FCEblock>
+</FCEblocks>
